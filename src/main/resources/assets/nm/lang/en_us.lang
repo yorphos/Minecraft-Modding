@@ -5,6 +5,7 @@ item.alpha.name=Alpha
 
 # Blocks
 tile.omega_block.name=Omega Block
+tile.omega_ore.name=Omega Ore
 tile.alpha_block.name=Alpha Block
 tile.punch_block.name=Punch Block
 
