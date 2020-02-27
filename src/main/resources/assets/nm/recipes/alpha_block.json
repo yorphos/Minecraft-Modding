@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+            "OOO",
+            "OAO",
+            "OOO"
+          ],
+  "key":
+  {
+    "O":
+    {
+      "item": "nm:omega"
+    },
+    "A":
+    {
+      "item": "nm:alpha"
+    }
+  },
+  "result":
+  {
+    "item": "nm:alpha_block",
+    "count": 1
+  }
+}

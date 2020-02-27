@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nm:omega"
+    },
+    {
+      "item": "nm:omega"
+    }
+  ],
+  "result":
+  {
+    "item": "nm:alpha",
+    "count": 1
+  }
+}

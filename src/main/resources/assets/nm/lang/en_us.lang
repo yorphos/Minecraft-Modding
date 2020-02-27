@@ -1,0 +1,34 @@
+
+# Items
+item.omega.name=Omega
+item.alpha.name=Alpha
+
+# Blocks
+tile.omega_block.name=Omega Block
+tile.alpha_block.name=Alpha Block
+tile.punch_block.name=Punch Block
+
+# Tools
+item.omega_sword.name=Omega Sword
+item.omega_shovel.name=Omega Shovel
+item.omega_axe.name=Omega Axe
+item.omega_pickaxe.name=Omega Pickaxe
+item.omega_hoe.name=Omega Hoe
+item.alpha_sword.name=Alpha Sword
+item.alpha_shovel.name=Alpha Shovel
+item.alpha_axe.name=Alpha Axe
+item.alpha_pickaxe.name=Alpha Pickaxe
+item.alpha_hoe.name=Alpha Hoe
+
+# Armor
+item.omega_helmet.name=Omega Helmet
+item.omega_chestplate.name=Omega Chestplate
+item.omega_leggings.name=Omega Leggings
+item.omega_boots.name=Omega Boots
+item.alpha_helmet.name=Alpha Helmet
+item.alpha_chestplate.name=Alpha Chestplate
+item.alpha_leggings.name=Alpha Leggings
+item.alpha_boots.name=Alpha Boots
+
+# Food
+item.cupcake.name=Cupcake

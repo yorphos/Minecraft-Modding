@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+            " OO",
+            " S ",
+            " S "
+          ],
+  "key":
+  {
+    "O":
+    {
+      "item": "nm:omega"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "nm:omega_hoe",
+    "count": 1
+  }
+}
