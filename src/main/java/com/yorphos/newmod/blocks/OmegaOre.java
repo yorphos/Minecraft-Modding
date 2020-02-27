@@ -1,6 +1,7 @@
 package com.yorphos.newmod.blocks;
 
 import com.yorphos.newmod.init.ModItems;
+import com.yorphos.newmod.init.ModTabs;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -12,6 +13,7 @@ public class OmegaOre extends BlockBase {
 
     public OmegaOre(String name, Material material) {
         super(name, material);
+        setCreativeTab(ModTabs.MOD_TAB);
         setSoundType(SoundType.METAL);
         setHardness(5.0f);
         setResistance(15.0f);

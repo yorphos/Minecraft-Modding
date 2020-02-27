@@ -1,10 +1,11 @@
 package com.yorphos.newmod.items.tools;
 
 import com.yorphos.newmod.init.ModTabs;
+import net.minecraft.item.ItemHoe;
 
-public class OmegaPickaxe extends ToolPickaxe {
+public class OmegaHoe extends ToolHoe {
 
-    public OmegaPickaxe(String name, ToolMaterial material) {
+    public OmegaHoe(String name, ToolMaterial material) {
         super(name, material);
         setCreativeTab(ModTabs.MOD_TAB);
     }

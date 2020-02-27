@@ -3,8 +3,13 @@ package com.yorphos.newmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.yorphos.newmod.items.Alpha;
 import com.yorphos.newmod.items.ItemBase;
+import com.yorphos.newmod.items.Omega;
+import com.yorphos.newmod.items.armor.AlphaArmor;
 import com.yorphos.newmod.items.armor.ArmorBase;
+import com.yorphos.newmod.items.armor.OmegaArmor;
+import com.yorphos.newmod.items.food.Cupcake;
 import com.yorphos.newmod.items.food.FoodBase;
 import com.yorphos.newmod.items.food.FoodEffectBase;
 import com.yorphos.newmod.items.tools.*;
@@ -70,35 +75,35 @@ public class ModItems {
                 new int[] {10, 16, 20, 10}, 100, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 
         // Items
-        OMEGA = new ItemBase("omega");
-        ALPHA = new ItemBase("alpha");
+        OMEGA = new Omega("omega");
+        ALPHA = new Alpha("alpha");
 
         // Tools
-        OMEGA_SWORD = new ToolSword("omega_sword", MATERIAL_OMEGA);
-        OMEGA_SHOVEL = new ToolSpade("omega_shovel", MATERIAL_OMEGA);
-        OMEGA_AXE = new ToolAxe("omega_axe", MATERIAL_OMEGA);
+        OMEGA_SWORD = new OmegaSword("omega_sword", MATERIAL_OMEGA);
+        OMEGA_SHOVEL = new OmegaSpade("omega_shovel", MATERIAL_OMEGA);
+        OMEGA_AXE = new OmegaAxe("omega_axe", MATERIAL_OMEGA);
         OMEGA_PICKAXE = new OmegaPickaxe("omega_pickaxe", MATERIAL_OMEGA);
-        OMEGA_HOE = new ToolHoe("omega_hoe", MATERIAL_OMEGA);
+        OMEGA_HOE = new OmegaHoe("omega_hoe", MATERIAL_OMEGA);
 
-        ALPHA_SWORD = new ToolSword("alpha_sword", MATERIAL_ALPHA);
-        ALPHA_SHOVEL = new ToolSpade("alpha_shovel", MATERIAL_ALPHA);
-        ALPHA_AXE = new ToolAxe("alpha_axe", MATERIAL_ALPHA);
-        ALPHA_PICKAXE = new ToolPickaxe("alpha_pickaxe", MATERIAL_ALPHA);
-        ALPHA_HOE = new ToolHoe("alpha_hoe", MATERIAL_ALPHA);
+        ALPHA_SWORD = new AlphaSword("alpha_sword", MATERIAL_ALPHA);
+        ALPHA_SHOVEL = new AlphaSpade("alpha_shovel", MATERIAL_ALPHA);
+        ALPHA_AXE = new AlphaAxe("alpha_axe", MATERIAL_ALPHA);
+        ALPHA_PICKAXE = new AlphaPickaxe("alpha_pickaxe", MATERIAL_ALPHA);
+        ALPHA_HOE = new AlphaHoe("alpha_hoe", MATERIAL_ALPHA);
 
         // Armor
-        OMEGA_HELMET = new ArmorBase("omega_helmet", ARMOR_MATERIAL_OMEGA, 1, EntityEquipmentSlot.HEAD);
-        OMEGA_CHESTPLATE = new ArmorBase("omega_chestplate", ARMOR_MATERIAL_OMEGA, 1, EntityEquipmentSlot.CHEST);
-        OMEGA_LEGGINGS = new ArmorBase("omega_leggings", ARMOR_MATERIAL_OMEGA, 2, EntityEquipmentSlot.LEGS);
-        OMEGA_BOOTS = new ArmorBase("omega_boots", ARMOR_MATERIAL_OMEGA, 1, EntityEquipmentSlot.FEET);
+        OMEGA_HELMET = new OmegaArmor("omega_helmet", ARMOR_MATERIAL_OMEGA, 1, EntityEquipmentSlot.HEAD);
+        OMEGA_CHESTPLATE = new OmegaArmor("omega_chestplate", ARMOR_MATERIAL_OMEGA, 1, EntityEquipmentSlot.CHEST);
+        OMEGA_LEGGINGS = new OmegaArmor("omega_leggings", ARMOR_MATERIAL_OMEGA, 2, EntityEquipmentSlot.LEGS);
+        OMEGA_BOOTS = new OmegaArmor("omega_boots", ARMOR_MATERIAL_OMEGA, 1, EntityEquipmentSlot.FEET);
 
-        ALPHA_HELMET = new ArmorBase("alpha_helmet", ARMOR_MATERIAL_ALPHA, 1, EntityEquipmentSlot.HEAD);
-        ALPHA_CHESTPLATE = new ArmorBase("alpha_chestplate", ARMOR_MATERIAL_ALPHA, 1, EntityEquipmentSlot.CHEST);
-        ALPHA_LEGGINGS = new ArmorBase("alpha_leggings", ARMOR_MATERIAL_ALPHA, 2, EntityEquipmentSlot.LEGS);
-        ALPHA_BOOTS = new ArmorBase("alpha_boots", ARMOR_MATERIAL_ALPHA, 1, EntityEquipmentSlot.FEET);
+        ALPHA_HELMET = new AlphaArmor("alpha_helmet", ARMOR_MATERIAL_ALPHA, 1, EntityEquipmentSlot.HEAD);
+        ALPHA_CHESTPLATE = new AlphaArmor("alpha_chestplate", ARMOR_MATERIAL_ALPHA, 1, EntityEquipmentSlot.CHEST);
+        ALPHA_LEGGINGS = new AlphaArmor("alpha_leggings", ARMOR_MATERIAL_ALPHA, 2, EntityEquipmentSlot.LEGS);
+        ALPHA_BOOTS = new AlphaArmor("alpha_boots", ARMOR_MATERIAL_ALPHA, 1, EntityEquipmentSlot.FEET);
 
         // Food
-        CUPCAKE = new FoodEffectBase("cupcake", 10, 1.0f, true,
+        CUPCAKE = new Cupcake("cupcake", 10, 1.0f, true,
                 new PotionEffect(MobEffects.REGENERATION, 99999999, 255, false, true));
     }
 }

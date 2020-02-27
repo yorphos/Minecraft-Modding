@@ -1,10 +1,11 @@
 package com.yorphos.newmod.items.tools;
 
 import com.yorphos.newmod.init.ModTabs;
+import net.minecraft.item.ItemSword;
 
-public class OmegaPickaxe extends ToolPickaxe {
+public class OmegaSword extends ToolSword {
 
-    public OmegaPickaxe(String name, ToolMaterial material) {
+    public OmegaSword(String name, ToolMaterial material) {
         super(name, material);
         setCreativeTab(ModTabs.MOD_TAB);
     }
