@@ -1,8 +1,8 @@
 package com.yorphos.newmod.util.handlers;
 
+import com.yorphos.newmod.Main;
 import com.yorphos.newmod.init.ModBlocks;
 import com.yorphos.newmod.init.ModItems;
-import com.yorphos.newmod.util.IHasModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -27,15 +27,11 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
         for (Item item : ModItems.ITEMS) {
-            if(item instanceof IHasModel) {
-                ((IHasModel)item).registerModels();
-            }
+            Main.proxy.registerItemRenderer(item, 0, "inventory");
         }
 
         for (Block block : ModBlocks.BLOCKS) {
-            if(block instanceof IHasModel) {
-                ((IHasModel)block).registerModels();
-            }
+            Main.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
         }
     }
 

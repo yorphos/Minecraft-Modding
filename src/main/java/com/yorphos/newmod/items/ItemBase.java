@@ -1,13 +1,11 @@
 package com.yorphos.newmod.items;
 
-import com.yorphos.newmod.Main;
 import com.yorphos.newmod.init.ModItems;
-import com.yorphos.newmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel {
+public class ItemBase extends Item {
 
     public ItemBase(String name) {
         setUnlocalizedName(name);
@@ -16,8 +14,5 @@ public class ItemBase extends Item implements IHasModel {
 
         ModItems.ITEMS.add(this);
     }
-
-    @Override
-    public void registerModels() { Main.proxy.registerItemRenderer(this, 0, "inventory"); }
 
 }

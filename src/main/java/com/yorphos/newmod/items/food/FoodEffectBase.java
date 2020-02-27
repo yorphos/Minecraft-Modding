@@ -1,18 +1,13 @@
 package com.yorphos.newmod.items.food;
 
-import com.yorphos.newmod.Main;
-import com.yorphos.newmod.init.ModItems;
-import com.yorphos.newmod.util.IHasModel;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class FoodEffectBase extends FoodBase implements IHasModel {
+public class FoodEffectBase extends FoodBase {
 
     PotionEffect effect;
 

@@ -2,11 +2,10 @@ package com.yorphos.newmod.items.food;
 
 import com.yorphos.newmod.Main;
 import com.yorphos.newmod.init.ModItems;
-import com.yorphos.newmod.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 
-public class FoodBase extends ItemFood implements IHasModel {
+public class FoodBase extends ItemFood {
 
     public FoodBase(String name, int amount, float saturation, boolean isWolfFood) {
         super(amount, saturation, isWolfFood);
@@ -16,8 +15,5 @@ public class FoodBase extends ItemFood implements IHasModel {
 
         ModItems.ITEMS.add(this);
     }
-
-    @Override
-    public void registerModels() { Main.proxy.registerItemRenderer(this, 0, "inventory"); }
 
 }
