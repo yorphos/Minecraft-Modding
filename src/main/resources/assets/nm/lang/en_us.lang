@@ -33,3 +33,6 @@ item.alpha_boots.name=Alpha Boots
 
 # Food
 item.cupcake.name=Cupcake
+
+# Tabs
+itemGroup.mod_tab=New Mod
