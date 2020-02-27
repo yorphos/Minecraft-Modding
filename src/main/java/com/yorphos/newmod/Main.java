@@ -1,13 +1,12 @@
 package com.yorphos.newmod;
 
-import com.yorphos.newmod.init.ModBlocks;
-import com.yorphos.newmod.init.ModItems;
-import com.yorphos.newmod.init.ModSmeltingRecipes;
-import com.yorphos.newmod.init.ModTabs;
+import com.yorphos.newmod.init.*;
 import com.yorphos.newmod.proxy.CommonProxy;
 import com.yorphos.newmod.util.Ref;
 
+import com.yorphos.newmod.util.handlers.RenderHandler;
 import com.yorphos.newmod.world.ModWorldGen;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -37,6 +36,7 @@ public class Main {
         ModTabs.init();
         ModItems.init();
         ModBlocks.init();
+        ModEntities.init();
         GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
     }
 

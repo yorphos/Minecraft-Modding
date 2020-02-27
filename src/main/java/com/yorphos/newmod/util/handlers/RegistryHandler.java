@@ -33,6 +33,9 @@ public class RegistryHandler {
         for (Block block : ModBlocks.BLOCKS) {
             Main.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
         }
+
+
+        RenderHandler.registerEntityRenderers();
     }
 
 }

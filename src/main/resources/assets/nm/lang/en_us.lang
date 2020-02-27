@@ -1,4 +1,3 @@
-
 # Items
 item.omega.name=Omega
 item.alpha.name=Alpha
@@ -36,3 +35,6 @@ item.cupcake.name=Cupcake
 
 # Tabs
 itemGroup.mod_tab=New Mod
+
+# Entities
+entity.custom.name=Custom Entity

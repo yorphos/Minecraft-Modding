@@ -9,4 +9,6 @@ public class Ref {
     public static final String CLIENT_PROXY = "com.yorphos.newmod.proxy.ClientProxy";
     public static final String COMMON_PROXY = "com.yorphos.newmod.proxy.CommonProxy";
 
+    public static final int ENTITY_CUSTOM = 120;
+
 }
