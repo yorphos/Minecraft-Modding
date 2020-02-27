@@ -11,10 +11,16 @@ public class ModBlocks {
 
     public static final List<Block> BLOCKS = new ArrayList<Block>();
 
-    public static final Block OMEGA_BLOCK = new OmegaBlock("omega_block", Material.IRON);
-    public static final Block ALPHA_BLOCK = new AlphaBlock("alpha_block", Material.IRON);
-    public static final Block OMEGA_ORE = new OmegaOre("omega_ore", Material.ROCK);
+    public static Block OMEGA_BLOCK;
+    public static Block ALPHA_BLOCK;
+    public static Block OMEGA_ORE;
+    public static Block PUNCH_BLOCK;
 
-    public static final Block PUNCH_BLOCK = new PunchBlock("punch_block", Material.GROUND);
+    public static void init() {
+        OMEGA_BLOCK = new OmegaBlock("omega_block", Material.IRON);
+        ALPHA_BLOCK = new AlphaBlock("alpha_block", Material.IRON);
+        OMEGA_ORE = new OmegaOre("omega_ore", Material.ROCK);
+        PUNCH_BLOCK = new PunchBlock("punch_block", Material.GROUND);
+    }
 
 }
