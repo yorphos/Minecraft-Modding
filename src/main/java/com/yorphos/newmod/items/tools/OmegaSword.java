@@ -7,7 +7,7 @@ public class OmegaSword extends ToolSword {
 
     public OmegaSword(String name, ToolMaterial material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.COMBAT);
     }
 
 }

@@ -8,7 +8,7 @@ public class OmegaBlock extends BlockBase {
 
     public OmegaBlock(String name, Material material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.BUILDING);
         setSoundType(SoundType.METAL);
         setHardness(0.5F);
         setResistance(20.0F);

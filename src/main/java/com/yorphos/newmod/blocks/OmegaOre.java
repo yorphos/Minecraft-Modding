@@ -13,7 +13,7 @@ public class OmegaOre extends BlockBase {
 
     public OmegaOre(String name, Material material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.DEFAULT);
         setSoundType(SoundType.METAL);
         setHardness(5.0f);
         setResistance(15.0f);

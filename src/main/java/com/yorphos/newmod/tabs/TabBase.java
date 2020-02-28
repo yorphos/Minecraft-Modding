@@ -3,9 +3,12 @@ package com.yorphos.newmod.tabs;
 import com.yorphos.newmod.init.ModItems;
 import com.yorphos.newmod.init.ModTabs;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class TabBase extends CreativeTabs {
+
+    private static ItemStack icon;
 
     public TabBase(String label) {
         super(label);
@@ -14,5 +17,6 @@ public class TabBase extends CreativeTabs {
     }
 
     @Override
-    public ItemStack getTabIconItem() { return new ItemStack(ModItems.OMEGA); }
+    public ItemStack getTabIconItem() { return null; }
+
 }

@@ -8,7 +8,7 @@ public class PunchBlock extends BlockBase {
 
     public PunchBlock(String name, Material material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.BUILDING);
         setSoundType(SoundType.CLOTH);
         setHardness(0.5F);
         setResistance(1000000.0F);

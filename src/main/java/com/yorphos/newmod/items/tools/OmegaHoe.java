@@ -7,7 +7,7 @@ public class OmegaHoe extends ToolHoe {
 
     public OmegaHoe(String name, ToolMaterial material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.TOOLS);
     }
 
 }

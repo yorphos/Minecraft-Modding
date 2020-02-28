@@ -6,7 +6,7 @@ public class Omega extends ItemBase {
 
     public Omega(String name) {
         super(name);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.DEFAULT);
     }
 
 }

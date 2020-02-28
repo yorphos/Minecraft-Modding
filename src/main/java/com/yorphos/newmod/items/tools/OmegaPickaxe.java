@@ -6,7 +6,7 @@ public class OmegaPickaxe extends ToolPickaxe {
 
     public OmegaPickaxe(String name, ToolMaterial material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.TOOLS);
     }
 
 }

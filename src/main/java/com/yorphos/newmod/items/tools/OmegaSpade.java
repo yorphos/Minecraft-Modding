@@ -7,7 +7,7 @@ public class OmegaSpade extends ToolSpade {
 
     public OmegaSpade(String name, ToolMaterial material) {
         super(name, material);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.TOOLS);
     }
 
 }

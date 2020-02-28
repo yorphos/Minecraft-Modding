@@ -9,7 +9,7 @@ public class OmegaArmor extends ArmorBase {
 
     public OmegaArmor(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
         super(name, materialIn, renderIndexIn, equipmentSlotIn);
-        setCreativeTab(ModTabs.MOD_TAB);
+        setCreativeTab(ModTabs.COMBAT);
 
         ModItems.ITEMS.add(this);
     }
