@@ -9,7 +9,7 @@ import net.minecraft.util.math.MathHelper;
  * ModelCow - Either Mojang or a mod author
  * Created using Tabula 6.0.0
  */
-public class ModelCustom extends ModelBase {
+public class ModelRegenerationCow extends ModelBase {
     public ModelRenderer cow_body;
     public ModelRenderer cow_udders;
     public ModelRenderer cow_bl_leg;
@@ -33,7 +33,7 @@ public class ModelCustom extends ModelBase {
         child.rotateAngleZ -= parent.rotateAngleZ;
     }
 
-    public ModelCustom() {
+    public ModelRegenerationCow() {
         this.textureWidth = 64;
         this.textureHeight = 32;
         this.cow_horn_r = new ModelRenderer(this, 22, 0);

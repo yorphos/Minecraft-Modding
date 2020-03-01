@@ -34,7 +34,17 @@ item.alpha_boots.name=Alpha Boots
 item.cupcake.name=Cupcake
 
 # Tabs
-itemGroup.mod_tab=New Mod
+itemGroup.mod_default=New Mod
+itemGroup.mod_combat=New Mod Combat
+itemGroup.mod_food=New Mod Food
+itemGroup.mod_building=New Mod Building
+itemGroup.mod_tools=New Mod Tools
 
 # Entities
-entity.custom.name=Custom Entity
+entity.water_cow.name=Water Cow
+entity.lava_cow.name=Lava Cow
+entity.regeneration_cow.name=Cow of Regeneration
+entity.poison_cow.name=Cow of Poison
+entity.harming_cow.name=Cow of Harming
+entity.nightvision_cow.name=Cow of Night Vision
+entity.waterbreathing_cow.name=Cow of Water Breathing
